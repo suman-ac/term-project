@@ -1,0 +1,122 @@
+/* Existing styles */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.logo {
+    width: 100px;  /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+/* Style rules for header */
+header {
+    background-color: rgb(248, 193, 90);
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    width: 150px;
+}
+
+/* Style rules for navigation */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style rules for main content */
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h1, main h2 {
+    color: #333;
+}
+
+#featured-products {
+    margin-top: 20px;
+}
+
+#featured-products .product {
+    display: inline-block;
+    width: 45%;
+    margin: 2.5%;
+    text-align: center;
+}
+
+#why-choose-us {
+    margin-top: 20px;
+}
+
+#why-choose-us ul {
+    list-style: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+#customer-testimonials {
+    margin-top: 20px;
+}
+
+#customer-testimonials blockquote {
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-style: italic;
+}
+
+/* Style rules for footer */
+footer {
+    background-color: rgb(248, 193, 90);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}

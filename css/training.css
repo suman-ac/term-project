@@ -1,0 +1,84 @@
+/* Training page specific styles */
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h1, main h2 {
+    color: #333;
+}
+
+main p, main ul {
+    margin: 10px 0;
+}
+
+main ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+main ul li {
+    margin: 5px 0;
+}
+
+main ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.video-container p {
+    margin: 5px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+caption {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+article{
+    overflow-x: auto;
+}

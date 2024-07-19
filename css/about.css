@@ -9,13 +9,51 @@ main {
 
 main h1, main h2 {
     color: #333;
+    font-family: Arial, sans-serif;
 }
 
-main p, main ul {
+main p, main ol {
     margin: 10px 0;
+    font-family: Arial, sans-serif;
 }
 
-main ul {
-    list-style: disc;
+main ol {
+    list-style: decimal;
     padding-left: 20px;
+}
+
+main a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for different viewports */
+.mobile {
+    display: block;
+}
+
+.tablet, .desktop {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
 }

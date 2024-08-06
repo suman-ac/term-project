@@ -29,6 +29,7 @@
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="training.html">Training</a></li>
                 <li><a href="team.html">Our Team</a></li>
+                <li><a href="media.html">Media</a></li>
 
             </ul>
         </nav>
@@ -40,6 +41,50 @@
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8516496982043!2d-71.05401952473794!3d42.345686136010805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel%20Center%20St%2C%20Boston%2C%20MA%2002210%2C%20USA!5e0!3m2!1sen!2sca!4v1716917278587!5m2!1sen!2sca"
                 width="600" height="450" allowfullscreen="" class="map"></iframe>
+            <br />
+            <br />
+            <form action="submit_form.php" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <div class="button-container">
+                        <button class="reset-button" type="reset">Reset Form</button>
+                    </div>
+                    <ol>
+                        <li><label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required autofocus>
+                        </li>
+                        <li><label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </li>
+                        <li><label for="dob">Date of Birth:</label>
+                            <input type="date" id="dob" name="dob">
+                        </li>
+                        <li><label for="gender">Gender:</label>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </li>
+                        <li><label for="subscribe">Subscribe to Newsletter:</label>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </li>
+                        <li><label for="comments">Comments:</label>
+                            <textarea id="comments" name="comments" rows="4" cols="50"
+                                placeholder="Your comments"></textarea>
+                        </li>
+                        <li><label for="contact_method">Preferred Contact Method:</label>
+                            <select id="contact_method" name="contact_method">
+                                <option value="email">Email</option>
+                                <option value="phone">Phone</option>
+                                <option value="mail">Mail</option>
+                            </select>
+                        </li>
+                    </ol>
+                    <div class="button-container">
+                        <button type="submit" class="submit-button">Submit Request</button>
+                    </div>
+                </fieldset>
+            </form>
         </main>
         <footer><b>
                 &copy; Copyright 2011. All Rights Reserved.<br>
